@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <ion-icon name="telescope" size="large"></ion-icon>
+                    <p><strong>AstroSights</strong></p>
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+                <div class="navbar-menu" id="navMenu">
+        
+                </div>
+            </div>
+        
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Home
+                    </a>
+        
+                    <a class="navbar-item" href="#">
+                        Gallery
+                    </a>
+                    
+        
+                </div>
+                
+        
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+        <div class = "is-flex is-justify-content-center m-4 p-4">
+            <div class="control">
+                <label class = "label subtitle is-3">Search the NASA Image Library</label>
+                <div class="field is-grouped">
+                    <p class="control is-expanded">
+                        <input class="input" type="text" placeholder="e.g. Saturn Rings" id = "term">
+                    </p>
+                    <p class="control">
+                        <a class="button is-link" id= "query">
+                            Search
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id = "library">
+            <div class="columns">
+                <div class="column">
+                    <div class="box is-hidden" id="one">
+                        <img src="">
+
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box is-hidden" id="two">
+                        <img src="">
+
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box is-hidden" id="three">
+                        <img src="">
+
+
+                    </div>
+                </div>
+            
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="box is-hidden" id="four">
+                        <img src="">
+
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box is-hidden" id="five">
+                        <img src="">
+
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box is-hidden" id="six">
+                        <img src="">
+
+
+                    </div>
+                </div>
+            
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="box is-hidden" id="seven">
+                        <img src="">
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box is-hidden" id="eight">
+                        <img src="">
+
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box is-hidden" id="nine">
+                        <img src="">
+
+
+                    </div>
+                </div>
+            
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="box is-hidden" id="ten">
+                        <img src="">
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box is-hidden" id="eleven">
+                        <img src="">
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box is-hidden" id="twelve">
+                        <img src="">
+
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>    
+    <script src="js/config.js"></script>
+    <script src = "js/gallery.js"></script>
+</body>
+</html>

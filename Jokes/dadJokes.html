@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes and Stuff</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <i class="far fa-smile-beam fa-2x"></i>
+                    <div class="mx-3">
+                        <strong>Jokes and Stuff</strong>
+                    </div>
+
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="quotes.html">
+                        Quotes
+                    </a>
+                    <a class="navbar-item" href="advice.html">
+                        Advice Slip
+                    </a>
+
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Jokes
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="dadJokes.html">
+                                Dad Jokes
+                            </a>
+                            <a class="navbar-item" href="cn.html">
+                                Chuck Norris Jokes
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="columns m-4 p-4">
+            <div class="column">
+                <p class = 'is-size-3'><strong>Dad Jokes</strong></p>
+            </div>
+        </div>
+        <div class="m-4 p-4">
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <p class="m-4 p-4 is-size-3" id="joke"></p>
+                    </div>
+                </div>
+            </div>
+            <div class=" is-flex columns">
+                <div class="column">
+                    <button class="button is-link" id="anotherJoke">Get another Joke</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <script src="js/dadJokes.js"></script>
+    </footer>
+
+</body>
+
+</html>
