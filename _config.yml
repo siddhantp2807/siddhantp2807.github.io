@@ -9,7 +9,7 @@ last_name: Poudyal
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Siddhant Poudyal — generative AI pipelines for antimicrobial molecule design, from diffusion-based peptide generation to boronate β-lactamase inhibitor discovery. PhD applicant.
+  Personal website of Siddhant Poudyal — interested in AI and proteins. PhD applicant.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
