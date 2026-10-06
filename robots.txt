@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://siddhantp2807.github.io/sitemap.xml
