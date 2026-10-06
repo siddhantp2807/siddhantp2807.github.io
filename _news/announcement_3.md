@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-12-02 15:00:00-0000
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Delivered a [talk](/assets/slides/OHDSI-India-Lightning-talk-initial.pdf) at the **OHDSI India Symposium 2025** on structured extraction of Indian medication data using LLMs.

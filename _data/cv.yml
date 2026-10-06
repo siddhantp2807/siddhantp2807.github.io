@@ -1,189 +1,110 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Siddhant Poudyal
+  email: siddhantp457@gmail.com
+  location: Roorkee, India
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: siddhantp2807
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
+      - institution: Indian Institute of Science, Education and Research (IISER) Mohali
+        location: Mohali, India
+        url: https://www.iisermohali.ac.in/
         area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        studyType: Integrated BS-MS
+        start_date: 2019-08
+        end_date: 2024-06
+        score: "CPI: 8.00"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - 'Gold Medal at iGEM Jamboree 2022 (iGEM Team: IISER Mohali)'
+          - DST-INSPIRE Scholar (2019-2024)
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: A semantic-based community model for high-fidelity tuning of olfactory mixture distances
+        publisher: V. Satarifard, L. Sisson, Y. Han, ..., J. D. Mainland, P. Meyer, and the DREAM Olfactory Mixtures Prediction Consortium, including Siddhant Poudyal. PNAS
+        date: 2026
+        url: https://www.pnas.org/doi/abs/10.1073/pnas.2611057123
+      - title: "PRISM: Physician Rules Integrated with Small large language Models for probable diagnoses associated with Abdominal Pain"
+        publisher: Gautam Ahuja, Ayush Agarwal, Hara Prasad Mishra, Samagra Agrawal, Rik Ganguly, Zonunmawia, Akshay Sharma, Vatsal Batra, Bableen Kaur, Siddhant Poudyal, and 10 more authors. NeurIPS 2025 Workshop on GenAI for Health
+        date: 2025
+        url: https://openreview.net/forum?id=c8QFEI1XBI
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Experience:
+      - company: Indian Institute of Technology, Roorkee
+        position: Project Assistant, Hazra Lab
+        start_date: 2026-07
+        end_date:
+        highlights:
+          - 'NeurIPS AMP Challenge submission: Implemented a generative design and ranking pipeline (VAE with conditional latent diffusion and a censoring-aware MIC ranker) for broad-spectrum antimicrobial peptides trained on a harmonized MIC dataset with CD-HIT homology-aware splits. <a href="https://github.com/siddhantp2807/amp-challenge-2027" target="_blank">Link to repository</a>'
+          - 'AMP/non-AMP classifier: Trained an XGBoost classifier on ProtBERT embeddings (reduced using PCA, with collinear biophysical features removed) using homology-aware splitting, reaching a test MCC of 0.87 on a 156-peptide dataset. <a href="https://github.com/rikmicrobio/IIMT-WORKSHOP-" target="_blank">Link to repository</a>'
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - company: Ashoka University
+        position: Project Research Scientist I, Augmented Health Systems Lab
+        start_date: 2026-01
+        end_date: 2026-07
+        highlights:
+          - Deployed a custom data workflow to harmonize over 40 highly unstructured clinical, socio-economic, and lab-based IVF-EHR data fields via rule-based extraction and manual curation
+          - Developed an automated rule-based labeling and classification pipeline using 15+ lab parameters and EHR fields (Chief complaint, Past medical history, Family history, Current medication) to segment patients into clinical cohorts
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - company: Koita Centre of Digital Health - Ashoka University
+        position: Machine Learning Engineer, Augmented Health Systems Lab
+        start_date: 2025-08
+        end_date: 2025-12
+        highlights:
+          - Built pipelines for docking and containerized deep learning models (DynamicBind, FlowDock, DiffDock) for Protein-Ligand docking and binding affinity prediction to identify candidate small-molecule inhibitors of the NS3 serine protease.
+          - Deployed LLM-augmented pipelines for clinical term extraction from over 70,000 unstructured clinical prescription notes.
+          - Implemented a semi-automated data pipeline to standardize unstructured EHR records (Chief complaint, Past medical history, Family history, Current medication) using OHDSI standardized vocabularies
+          - Worked with subject matter expert to develop a pipeline for Somatic Variant Calling with tumor-only and paired tumor-normal mode on 15 samples
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - company: Koita Centre of Digital Health - Ashoka University
+        position: Junior Machine Learning Engineer, Augmented Health Systems Lab
+        start_date: 2024-07
+        end_date: 2025-07
+        highlights:
+          - Designed and implemented web-scraping pipelines to scrape Indian medication data (both prescription and over-the-counter drugs) from popular e-pharma websites
+          - Built a (semi-automated) workflow to map Indian medication data to OMOP at the Active Pharmaceutical Ingredient (API) Level.
+          - Used the now-interoperable Indian medication data to find gaps in Drug Codes at the national level (NRCeS CDCI). Also linked the standardized medication data to global databases such as PubChem and DrugBank.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Latent Diffusion over a Property-Agnostic VAE, with a Censoring-Aware Potency Ranker
+        date: 2026
+        url: https://github.com/siddhantp2807/amp-challenge-2027
+        summary: A three-stage generative pipeline for antimicrobial peptide design
+      - name: AMP/NAMP classifier
+        date: 2026
+        url: https://github.com/rikmicrobio/IIMT-WORKSHOP-
+        summary: ProtBERT + XGBoost classifier distinguishing antimicrobial from non-antimicrobial peptides.
+      - name: Protein-ligand binding affinity pipeline
+        date: 2025
+        summary: Containerized deep learning pipeline screening candidate small-molecule inhibitors of the NS3 serine protease.
+      # - name: AMP/NAMP contrastive learning
+      #   date: 2025
+      #   summary: Adaptive Lagrangian Contrastive Learning with LoRA adapters over frozen MoLFormer/ChemBERTa embeddings.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Talks:
+      - label: "OHDSI India Symposium 2025"
+        details: 'Delivered a talk on a knowledge base specific to Indian medications and structured extraction using LLMs (<a href="/assets/slides/OHDSI-India-Lightning-talk-initial.pdf" target="_blank">slides</a>)'
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - label: "Ashoka 2nd Centres Expo 2025"
+        details: 'Poster presentation of an India-specific medication knowledge base and clinical term extraction pipeline (<a href="/assets/pdf/ashoka-centres-expo-2025-poster.pdf" target="_blank">poster</a>)'
+
+    Awards:
+      - title: DST-INSPIRE Scholar
+        awarder: Department of Science and Technology, Government of India
+        date: 2019
+        summary: Merit scholarship for science undergraduates (2019-2024)
+
+      - title: Gold Medal, iGEM Jamboree 2022
+        awarder: International Genetically Engineered Machine (iGEM) Foundation
+        date: 2022
+        summary: Awarded as part of the [IISER Mohali iGEM team](https://2022.igem.wiki/iiser-mohali/)
+
+    Skills:
+      - name: Machine Learning
+        keywords: "PyTorch, scikit-learn, NumPy, XGBoost, Random Forests, VAEs, latent diffusion"
+      - name: Computational Biology
+        keywords: "Homology-aware data splitting (CD-HIT), protein–ligand docking (DiffDock, FlowDock, DynamicBind), ColabFold, GATK somatic variant calling"
+      - name: Data Engineering
+        keywords: "pandas, OMOP CDM, Knowledge graphs, NER pipelines, web scraping"

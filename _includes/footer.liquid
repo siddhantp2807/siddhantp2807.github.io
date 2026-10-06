@@ -1,0 +1,60 @@
+{% comment %}
+  Local override of al_folio_core's footer.liquid: contact icons are merged into the footer.
+  Requires footer_fixed: false in _config.yml (the footer closes the page instead of floating over it).
+{% endcomment %}
+
+<style>
+  footer.site-footer {
+    border-top: 1px solid var(--global-divider-color);
+    margin-top: 3rem;
+    padding: 1.5rem 0 1.75rem;
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+  }
+  footer.site-footer .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.1rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.05rem;
+    line-height: 1;
+  }
+  footer.site-footer .footer-icons a {
+    color: var(--global-text-color-light);
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
+  footer.site-footer .footer-icons a:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+  footer.site-footer .footer-text a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--global-divider-color);
+    text-underline-offset: 2px;
+  }
+  footer.site-footer .footer-text a:hover {
+    color: var(--global-theme-color);
+  }
+</style>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-icons">{% social_links %}</div>
+    <div class="footer-text">
+      &copy; {{ site.time | date: '%Y' }}
+      {{ site.first_name }}
+      {{ site.middle_name }}
+      {{ site.last_name }}.
+      {{ site.footer_text }}
+      {% if site.impressum_path %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+      {% endif %}
+      {% if site.last_updated %}
+        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+      {% endif %}
+    </div>
+  </div>
+</footer>

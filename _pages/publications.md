@@ -9,12 +9,24 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
 <div class="publications">
 
 {% bibliography %}
 
 </div>
+
+<!-- Link each paper title to its first button link (DOI / HTML / PDF) -->
+<script>
+  document.querySelectorAll(".publications .row").forEach(function (row) {
+    var title = row.querySelector(".title");
+    var link = row.querySelector("a.btn[href]");
+    if (!title || !link || title.querySelector("a")) return;
+    var a = document.createElement("a");
+    a.href = link.href;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.innerHTML = title.innerHTML;
+    title.innerHTML = "";
+    title.appendChild(a);
+  });
+</script>
