@@ -87,6 +87,7 @@ cv:
       - label: "OHDSI India Symposium 2025"
         details: 'Delivered a talk on a knowledge base specific to Indian medications and structured extraction using LLMs (<a href="/assets/slides/OHDSI-India-Lightning-talk-initial.pdf" target="_blank">slides</a>)'
 
+    Posters:
       - label: "Ashoka 2nd Centres Expo 2025"
         details: 'Poster presentation of an India-specific medication knowledge base and clinical term extraction pipeline (<a href="/assets/pdf/ashoka-centres-expo-2025-poster.pdf" target="_blank">poster</a>)'
 
